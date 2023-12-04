@@ -10,6 +10,16 @@ footer {
 	color: #ffffff;
 }
 
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.information {
+  display: flex;
+  justify-content: flestart;
+}
+
 img {
   max-width: 1.2rem;
 }
