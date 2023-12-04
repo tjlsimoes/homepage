@@ -21,10 +21,41 @@ header img,.content img {
 
 /* Main */
 
+main h2 {
+  margin-left: 30px;
+}
+
+.projects {
+  margin: 1vh 0 ;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr;
+  justify-items:center;
+  grid-row-gap: 40px;
+  grid-column-gap: 20px;
+}
+
+
+.project {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.project_info .top {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+}
+
 .top .icons img {
   max-width: 1.2rem;
 }
 
+.project .project_img {
+  width: 250px;
+  height: 175px;
+  background-color: #9e1c1c;
+}
 
 
 
