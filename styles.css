@@ -8,6 +8,8 @@ h2 {
 }
 
 h1 {
+  max-width: fit-content;
+  margin: 0;
   position: relative;
   color: #ffffff;
   top: 425px;
@@ -142,4 +144,77 @@ footer {
 .left-side .icons img {
   max-width: 1.9rem;
   gap: 3vw;
+}
+
+
+@media (max-width: 927px) {
+
+  /* Header */
+
+  h1 {
+    max-width: fit-content;
+    margin: 0;
+    position: relative;
+    color: #ffffff;
+    top: 425px;
+    left: 300px;
+  }
+  
+  header img, .content img {
+    object-fit: contain;
+    max-width: 500px;
+    max-height: 400px;
+  }
+
+  
+  header {
+    background-color: #0891b2;
+    padding: 60px 30px 90px 30px;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about_me {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    max-width: 440px;
+  }
+
+
+  /* Main */
+  main {
+    margin: 50px 0;
+  }
+
+  main h2 {
+    margin-left: 60px;
+  }
+
+  .projects {
+    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-row-gap: 40px;
+    grid-column-gap: 20px;
+  }
+
+
+  .project {
+    width: 300px;
+  }
+
+  .project_info .top {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .top .icons img {
+    max-width: 1.7rem;
+  }
+
+  .project .project_img {
+    width: 300px;
+  }
 }
