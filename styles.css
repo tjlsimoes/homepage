@@ -7,7 +7,7 @@ h2 {
   margin: 0;
 }
 
-.content img {
+header img,.content img {
   object-fit: contain;
   max-width: 500px;
 }
@@ -15,6 +15,14 @@ h2 {
 .icons img, .contacts img {
   max-width: 1.6rem;
 }
+
+
+
+
+
+
+/* Footer */
+
 
 footer {
 	display: flex;
