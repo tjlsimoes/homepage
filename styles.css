@@ -9,3 +9,7 @@ footer {
 	background-color: #0891b2;
 	color: #ffffff;
 }
+
+img {
+  max-width: 1.2rem;
+}
