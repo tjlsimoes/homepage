@@ -4,6 +4,8 @@ body {
 }
 
 footer {
+	display: flex;
+	flex-direction: column;
 	background-color: #0891b2;
 	color: #ffffff;
 }
