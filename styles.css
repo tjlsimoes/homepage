@@ -15,9 +15,14 @@ footer {
   justify-content: space-around;
 }
 
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .information {
   display: flex;
-  justify-content: flestart;
 }
 
 img {
