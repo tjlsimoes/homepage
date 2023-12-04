@@ -12,11 +12,18 @@ header img,.content img {
   max-width: 500px;
 }
 
-.icons img, .contacts img {
+/* Header */
+
+.about_me .icons img {
   max-width: 1.6rem;
 }
 
 
+/* Main */
+
+.top .icons img {
+  max-width: 1.2rem;
+}
 
 
 
@@ -48,6 +55,10 @@ footer {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
   align-items: center;
+}
+
+.contacts img {
+  max-width: 1.6rem;
 }
 
 .left-side p {
