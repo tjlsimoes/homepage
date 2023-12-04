@@ -7,15 +7,46 @@ h2 {
   margin: 0;
 }
 
-header img,.content img {
+h1 {
+  position: relative;
+  color: #ffffff;
+  top: 425px;
+  left: 125px;
+}
+
+
+header img, .content img {
   object-fit: contain;
   max-width: 500px;
+  max-height: 400px;
 }
 
 /* Header */
 
+header {
+  background-color: #0891b2;
+  padding: 60px 30px 90px 30px;
+  margin-bottom: 2vh;
+  display: flex;
+  align-items: center;
+}
+
+
+.about_me {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
 .about_me .icons img {
   max-width: 1.6rem;
+}
+
+.about_me .icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
 }
 
 
