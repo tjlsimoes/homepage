@@ -3,6 +3,19 @@ body {
   max-width: 960px;
 }
 
+h2 {
+  margin: 0;
+}
+
+.content img {
+  object-fit: contain;
+  max-width: 500px;
+}
+
+.icons img, .contacts img {
+  max-width: 1.6rem;
+}
+
 footer {
 	display: flex;
 	flex-direction: column;
@@ -13,19 +26,34 @@ footer {
 .content {
   display: flex;
   justify-content: space-around;
+  padding: 4vh 0 2vh 0;
 }
 
 .left-side {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  max-width: 350px;
 }
 
-.information {
+.contacts {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  align-items: center;
+}
+
+.left-side p {
+  margin: 5px 0 5px 0;
+  line-height: 1.4;
+}
+
+.left-side .icons {
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  gap: 1vw;
 }
 
-img {
-  max-width: 1.2rem;
+.left-side .icons img {
+  max-width: 1.9rem;
+  gap: 3vw;
 }
