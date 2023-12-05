@@ -98,7 +98,6 @@ main h2 {
 
 /* Footer */
 
-
 footer {
 	display: flex;
 	flex-direction: column;
@@ -145,6 +144,7 @@ footer {
   gap: 3vw;
 }
 
+/* Tablet size */
 
 @media (max-width: 927px) {
 
@@ -215,5 +215,17 @@ footer {
 
   .project .project_img {
     width: 300px;
+  }
+
+  /* Footer */
+
+  .contacts img {
+    max-width: 1.6rem;
+  }
+
+  .left-side .icons {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
   }
 }
