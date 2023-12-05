@@ -142,9 +142,9 @@ footer {
   gap: 3vw;
 }
 
-/* ///////////////////// */
-/* Tablet size breakpoint*/
-/* ///////////////////// */
+/* /////////////////////////////// */
+/* Two columns projects' breakpoint*/
+/* /////////////////////////////// */
 
 @media (max-width: 927px) {
 
@@ -231,11 +231,30 @@ footer {
 }
 
 
-/* ///////////////////// */
-/* Phone size breakpoint*/
-/* ///////////////////// */
+/* ////////////////////////////// */
+/* One column projects' breakpoint*/
+/* ////////////////////////////// */
 
 @media (max-width: 855px) {
+  
+  /* Header */
+
+  header img {
+    max-width: 300px;
+  }
+
+  h1 {
+    max-width: fit-content;
+    margin: 0;
+    position: relative;
+    color: #ffffff;
+    top: 275px;
+    left: 250px;
+  }
+
+  .about_me {
+    max-width: 240px;
+  }
   
   /* Main */
 
@@ -272,7 +291,8 @@ footer {
   /* Footer */
   
   .content img {
-    max-width: 350px;
+    max-width: 300px;
+    margin: auto;
   }
 
   .content {
@@ -284,7 +304,6 @@ footer {
   
   .left-side {
     gap: 25px;
-    max-width: 350px;
   }
 
   .left-side h2 {
@@ -299,5 +318,59 @@ footer {
   .contacts img {
     max-width: 1.3rem;
   }
+
+  .left-side .icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
   
+  .left-side .icons img {
+    margin: 0;
+    max-width: 1.9rem;
+    gap: 3vw;
+  }
+}
+
+/* //////////////// */
+/* Name breakpoint */
+/* //////////////// */
+
+@media (max-width: 653px) {
+  
+  h1 {
+    top: 275px;
+    left: 160px;
+    font-size: 25px;
+  }
+}
+
+/* ////////////////////////// */
+/* Smaller screens breakpoint */
+/* ////////////////////////// */
+
+@media (max-width: 473px) {
+  
+  /* Header */
+
+  h1 {
+    top: 235px;
+    left: 110px;
+    font-size: larger;
+  }
+  
+  header img {
+    max-width: 250px;
+  }
+
+  .about_me {
+    max-width: 190px;
+  }
+
+  /* Footer */
+
+  .content img {
+    max-width: 250px;
+    margin: auto;
+  }
 }
